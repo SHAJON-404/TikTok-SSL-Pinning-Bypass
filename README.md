@@ -1,9 +1,19 @@
-## Hi there 👋
+# 🔐 TikTok-SSL-Pinning-Bypass
+📡 Intercept TikTok network traffic on Android device/emulator
 
-I will be updating this repository as soon as possible, since I’m currently very busy.
+## 📌 Latest Tested App Version
+- 🎯 Instagram App version: **41.8.3**
+- 🏗️ Architecture: **arm64**, **armv7**
 
-If you need urgent assistance, feel free to reach out to me directly on Telegram:
+![raw data](https://raw.githubusercontent.com/SHAJON-404/TikTok-SSL-Pinning-Bypass/main/IMAGE/tiktok_v41.jpg)
 
-📩 [t.me/darknessking999](https://t.me/darknessking999)
+## 💻 Requirements for Emulator
+1. 🖥️ Windows PC with Reqable installed   
+3. ⚙️ Rooted Android Phone 
 
-Thank you for your patience and understanding! 🚀
+## 🆘 Need Bypass? Contact Me
+<p align="left">
+  <a href="https://t.me/DarknessKing999" target="_blank">
+    <img src="https://img.shields.io/badge/💬_Chat_on_Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=121212&color=26A5E4&logoWidth=20" alt="Telegram" style="border-radius: 8px;"/>
+  </a>
+</p>
