@@ -7,8 +7,8 @@
 
 ![raw data](https://raw.githubusercontent.com/SHAJON-404/TikTok-SSL-Pinning-Bypass/main/IMAGE/tiktok_v41.jpg)
 
-## 💻 Requirements for Emulator
-1. 🖥️ Windows PC with Reqable installed   
+## 💻 Requirements 
+1. 🖥️ Windows PC with Reqable installed / Reqable / ProxyPin Android App  
 3. ⚙️ Rooted Android Phone 
 
 ## 🆘 Need Bypass? Contact Me
