@@ -2,7 +2,7 @@
 📡 Intercept TikTok network traffic on Android device/emulator
 
 ## 📌 Latest Tested App Version
-- 🎯 Instagram App version: **41.8.3**
+- 🎯 Tiktok App version: **41.4.2**
 - 🏗️ Architecture: **arm64**, **armv7**
 
 ![raw data](https://raw.githubusercontent.com/SHAJON-404/TikTok-SSL-Pinning-Bypass/main/IMAGE/tiktok_v41.jpg)
