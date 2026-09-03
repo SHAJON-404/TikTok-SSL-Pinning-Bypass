@@ -1,22 +1,31 @@
+<div align="center">
+
 # 🔐 TikTok-SSL-Pinning-Bypass
-📡 Intercept TikTok network traffic on Android device
+📡 Capture and inspect TikTok's network traffic on Android — no root required.
 
 > 💡 **GOOD NEWS:** You do **not** need a rooted device to use this! It works flawlessly on **non-rooted** devices and has been successfully tested using **Mitmproxy** in a non-root environment.
 
+</div>
+
+---
+
 ## 📌 Latest Bypassed and Tested App Details
-- App version: **46.4.3 (Free Version)**
-- Architecture: **arm64-v8a**
+- App version: **46.7.3**
+- Architecture: **arm64-v8a, armeabi-v7a**
 - Tools Used for test: [Mitmproxy](https://mitmproxy.org/), [Reqable](https://reqable.com/).
 - For any inquiries, please contact me on Telegram [https://t.me/SHAJON](https://t.me/SHAJON)
 > ⚠️ **Important Notes:**
-> - The `armeabi-v7a` architecture has not been tested yet, so its functionality cannot be guaranteed. Therefore, this APK has not been added to the release either.
-> - The `arm64-v8a` patched APK has only been tested on AVD emulators and real Android phones using **mitmweb** and **mitmproxy**. It supports any Android version 6.0+.
+> - The `arm64-v8a` patched APK has been tested on AVD emulators and real Android phones using **mitmweb** and **mitmproxy**.
+> - The `armeabi-v7a` architecture has not been tested yet, so its functionality cannot be guaranteed.
 > - If you encounter any issues, please open a fully detailed issue on GitHub.
 > - This free patched APK does not contain any login errors (specifically, the "**maximum number of attempts reached**" error). Upcoming future versions will also be free from this error.
 
+---
+
 ## 🎥 Evidence
-![TikTok Android](assets/v46.4.3.jpg)
-![TikTok Android](assets/v46.4.3-avd.jpg)
+![TikTok Android](assets/v46.7.3.jpg)
+
+---
 
 ## ✅ Other Apps
 1. [TikTok iOS](https://github.com/shajon-dev/iOS-TikTok-SSL-Pinning-Bypass)
@@ -28,47 +37,75 @@
 7. [Instagram iOS](https://github.com/shajon-dev/iOS-Instagram-SSL-Pinning-Bypass)
 8. [Threads Android](https://github.com/shajon-dev/Threads-SSL-Pinning-Bypass)
 9. [Threads iOS](https://github.com/shajon-dev/iOS-Threads-SSL-Pinning-Bypass)
-10. [Business Suite Android](https://github.com/shajon-dev/Meta-Business-Suit-SSL-Pinning-Bypass)
-11. [Business Suite iOS](https://github.com/shajon-dev/iOS-Meta-Business-Suit-SSL-Pinning-Bypass)
+10. [Business Suite Android](https://github.com/shajon-dev/Meta-Business-Suite-SSL-Pinning-Bypass)
+11. [Business Suite iOS](https://github.com/shajon-dev/iOS-Meta-Business-Suite-SSL-Pinning-Bypass)
+
+---
 
 ## 📦 For Demo - Download Official APKs
-  - Read the [setup process](#-setup-process) carefully before use.
-  - **Note:** The current version (46.4.3) is provided as a **free version**. For any issues or to request access to **upcoming latest versions**, please [contact me](https://t.me/SHAJON) on Telegram.
+  - For any issues, contact me on Telegram. Read the [setup process](#-setup-process) carefully before use.
+  - Please note that the latest version is a paid release and is not available for free download.
 <table width="100%">
   <thead>
     <tr>
-      <th align="center">Package Name</th>
-      <th align="center">Version</th>
-      <th align="center">Status</th>
-      <th align="center">Non-Root</th>
-      <th align="center">Download Link</th>
+      <th rowspan="2" align="center">Package Name</th>
+      <th rowspan="2" align="center">Version</th>
+      <th rowspan="2" align="center">Status</th>
+      <th rowspan="2" align="center">Non-Root</th>
+      <th colspan="2" align="center">Download Link</th>
+    </tr>
+    <tr>
+      <th align="center">arm64-v8a</th>
+      <th align="center">armeabi-v7a</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td align="center"><code>com.zhiliaoapp.musically</code></td>
+      <td rowspan="2" align="center"><code>com.zhiliaoapp.musically</code></td>
+      <td align="center">46.7.3</td>
+      <td align="center">✅ Bypassed</td>
+      <td align="center">✅ Yes</td>
+      <td colspan="2" align="center"><a href="https://t.me/SHAJON">Contact Telegram</a></td>
+    </tr>
+    <tr>
       <td align="center">46.4.3</td>
       <td align="center">✅ Bypassed</td>
       <td align="center">✅ Yes</td>
-      <td align="center"><a href="https://github.com/shajon-dev/TikTok-SSL-Pinning-Bypass/releases">Download Link</a></td>
+      <td colspan="2" align="center"><a href="https://github.com/shajon-dev/TikTok-SSL-Pinning-Bypass/releases">Download Link</a></td>
     </tr>
   </tbody>
 </table>
 
+---
+
+<div align="center">
+
+### ⭐ Found this useful?
+
+**Star the repository** to support the project and stay updated with new free releases!
+
+</div>
+
+---
+
 ## 📱 Requirements
 1. 📱 **No root needed** — runs on real Android phones and Android AVD emulators. **We strongly suggest using ONLY a real Android phone or Android Studio AVD emulator.**
-2. 🔎 **Pick the right architecture (ABI).** The provided build is for the **`arm64-v8a`** architecture. Check your device's ABI first (recommended) with the ADB command below to ensure compatibility:
+2. 🔎 **Pick the right architecture (ABI).** The provided builds are for **`arm64-v8a`** and **`armeabi-v7a`** architectures. Check your device's ABI first (recommended) with the ADB command below to ensure compatibility:
    ```bash
    adb shell getprop ro.product.cpu.abi
    ```
-   - 📱 **Real Android phone / AVD Emulator** → should be **`arm64-v8a`**
+   - 📱 **Real Android phone / AVD Emulator** → should be **`arm64-v8a`** or **`armeabi-v7a`**
 3. 🔄 Traffic capture tools: [Mitmproxy](https://mitmproxy.org/).
 
+---
+
 ## 🔧 Setup Process
- 1. ⬇️ **Download the patched APK** from the [GitHub Releases](https://github.com/SHAJON-404/TikTok-SSL-Pinning-Bypass/releases) page, choosing the file that matches your device architecture (`arm64-v8a`).
+ 1. ⬇️ **Download the patched APK** from the [GitHub Releases](https://github.com/SHAJON-404/TikTok-SSL-Pinning-Bypass/releases) page, choosing the file that matches your device architecture (`arm64-v8a` or `armeabi-v7a`).
  2. 📲 **Install the APK** on your Android device (uninstall the original app first if it is already installed).
  3. 🔄 Configure a proxy and use **mitmproxy** or **mitmweb** to capture and monitor TikTok network traffic.
  4. ✅ **No root required** — this works on non-rooted devices as well.
+
+---
 
 ## 💼 Professional Services & Custom Solutions
 
@@ -86,6 +123,8 @@ If a specific bypass is not available on my GitHub, or if you have a custom proj
     <img src="https://img.shields.io/badge/💬_Let's_Chat_on_Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=121212&color=26A5E4&logoWidth=20" alt="Telegram" style="border-radius: 8px;"/>
   </a>
 </p>
+
+---
 
 ## ☕ Buy Me a Coffee
 
