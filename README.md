@@ -10,7 +10,7 @@
 ---
 
 ## 📌 Latest Bypassed and Tested App Details
-- App version: **46.7.3**
+- App version: **47.0.3**
 - Architecture: **arm64-v8a, armeabi-v7a**
 - Tools Used for test: [Mitmproxy](https://mitmproxy.org/), [Reqable](https://reqable.com/).
 - For any inquiries, please contact me on Telegram [https://t.me/SHAJON](https://t.me/SHAJON)
@@ -23,7 +23,7 @@
 ---
 
 ## 🎥 Evidence
-![TikTok Android](assets/v46.7.3.jpg)
+![TikTok Android](assets/v47.0.3.jpg)
 
 ---
 
@@ -62,7 +62,7 @@
   <tbody>
     <tr>
       <td rowspan="2" align="center"><code>com.zhiliaoapp.musically</code></td>
-      <td align="center">46.7.3</td>
+      <td align="center">47.0.3</td>
       <td align="center">✅ Bypassed</td>
       <td align="center">✅ Yes</td>
       <td colspan="2" align="center"><a href="https://t.me/SHAJON">Contact Telegram</a></td>
